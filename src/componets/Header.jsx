@@ -14,7 +14,7 @@ export const Header = () => {
           <p>Simplemente consulta nuestra extensa lista de médicos <br  className="hidden sm:block"/> de confianza y
           programa tu cita sin problemas.</p>
         </div>
-        <a className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300" href="#speciality">Reserva tu Cita <img     className='w-3' src= {assets.arrow_icon} alt="arrow_icon" /> </a>
+        <a className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300" href="#speciality">Reserva tu Cita <img  className='w-3' src= {assets.arrow_icon} alt="arrow_icon" /> </a>
       </div>
      
      
