@@ -25,7 +25,7 @@ export const TopDoctors = () => {
           </div>
         ))}
       </div>
-      <button onClick={()=>{navigate('/doctors/'); scrollTo(0,0)} } className="bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10">Más</button>
+      <button onClick={()=>{navigate('/doctors/'); scrollTo(0,0)} } className="bg-blue-50  border border-blue-300 hover:border-white hover:bg-primary hover:text-cyan-50 text-gray-600 px-12 py-3 rounded-full mt-10">Más</button>
     </div>
   )
 }
