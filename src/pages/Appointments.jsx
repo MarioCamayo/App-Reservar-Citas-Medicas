@@ -7,7 +7,7 @@ import { RelatedDoctors } from "../componets/RelatedDoctors";
 export const Appointments = () => {
   const { docId } = useParams();
   const { doctors, currencySymbol } = useContext(AppContext);
-  const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
+  const daysOfWeek = ['LUNES', 'MARTES', 'MIERCOLES', 'JUEVES', 'VIERNES', 'SÁBADO', 'DOMINGO']
 
 
   const [docInfo, setDocInfo] = useState(null);
@@ -79,9 +79,9 @@ export const Appointments = () => {
     getAvailableSlots();
   }, [docInfo]);
 
-  useEffect(() => {
-    console.log(docSlots);
-  }, [docSlots]);
+  // useEffect(() => {
+  //   console.log(docSlots);
+  // }, [docSlots]);
 
   return (
     docInfo && (
@@ -120,7 +120,7 @@ export const Appointments = () => {
             <div>
               <p className="flex items-center gap-1 text-sm font-medium text-gray-900 mt-3">
                 
-                About
+                ACERCA DEL DOCTOR
                 <img src={assets.info_icon} alt="info_icon" />
               </p>
               <p className="text-sm text-gray-500 max-w-[700px] mt-1">
@@ -139,7 +139,7 @@ export const Appointments = () => {
 
         {/* ----------------- Booking slots --------------------- */}
         <div className="sm:ml-72 sm:pl-4 mt-4 font-medium text-gray-700">
-          <p className="text-lg font-bold text-gray-900">Booking slots</p>
+          <p className="text-lg font-bold text-gray-900">Reserva de plazas</p>
           <div className="flex gap-3 items-center w-full overflow-x-scroll mt-4">
             {
               docSlots.length  && docSlots.map((item, index)=>(

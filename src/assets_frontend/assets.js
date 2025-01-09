@@ -96,7 +96,7 @@ export const doctors = [
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -110,7 +110,7 @@ export const doctors = [
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
+        experience: '3 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
@@ -124,7 +124,7 @@ export const doctors = [
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
@@ -138,8 +138,8 @@ export const doctors = [
         image: doc4,
         speciality: 'Pediatricians',
         degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '2 Años',
+        about: 'El Dr. Christopher Lee está comprometido con brindar una atención pediátrica excepcional, enfocándose en el bienestar infantil, evaluaciones tempranas del desarrollo y planes de tratamiento personalizados. Su enfoque integral garantiza que cada niño reciba un cuidado adaptado a sus necesidades únicas, promoviendo su crecimiento saludable y su desarrollo pleno.',
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -152,7 +152,7 @@ export const doctors = [
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -166,7 +166,7 @@ export const doctors = [
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -180,7 +180,7 @@ export const doctors = [
         image: doc7,
         speciality: 'General physician',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -194,7 +194,7 @@ export const doctors = [
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
+        experience: '3 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
@@ -208,7 +208,7 @@ export const doctors = [
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
+        experience: '5 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
@@ -222,8 +222,8 @@ export const doctors = [
         image: doc10,
         speciality: 'Pediatricians',
         degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '2 Años',
+        about: 'El Dr. Jeffrey King está comprometido con brindar una atención pediátrica excepcional, enfocándose en el bienestar infantil, evaluaciones tempranas del desarrollo y planes de tratamiento personalizados. Su enfoque integral garantiza que cada niño reciba un cuidado adaptado a sus necesidades únicas, promoviendo su crecimiento saludable y su desarrollo pleno.',
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -236,7 +236,7 @@ export const doctors = [
         image: doc11,
         speciality: 'Neurologist',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -250,7 +250,7 @@ export const doctors = [
         image: doc12,
         speciality: 'Neurologist',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -264,7 +264,7 @@ export const doctors = [
         image: doc13,
         speciality: 'General physician',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -278,7 +278,7 @@ export const doctors = [
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
+        experience: '3 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
@@ -292,7 +292,7 @@ export const doctors = [
         image: doc15,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
+        experience: '1 Años',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
