@@ -69,11 +69,21 @@ const [token, setToken] = useState(true)
             onClick={ ()=> setShowMenu(false) }
             src= {assets.cross_icon} alt="cross_icon" />
           </div>
-          <ul>
-            <NavLink to='/'>INICIO</NavLink>
-            <NavLink to='/doctors'>TODOS LOS MÉDICOS</NavLink>
-            <NavLink to='/about'>NOSOTROS</NavLink>
-            <NavLink to='/contact'>CONTACTO</NavLink>
+          <ul className='flex flex-col items-center gap-5 font-medium mt-5 px-5 text-lg'>
+            <NavLink
+            className= 'px-4 py-2 rounded inline-block'
+            onClick={()=> setShowMenu(false)} to='/'>
+            <p className= 'px-4 py-2 rounded inline-block'>INICIO</p></NavLink>
+            <NavLink
+            onClick={()=> setShowMenu(false)} to='/doctors'>
+            <p className= 'px-4 py-2 rounded inline-block'>TODOS LOS MÉDICOS</p></NavLink>
+            <NavLink
+            className= 'px-4 py-2 rounded inline-block'
+            onClick={()=> setShowMenu(false)} to='/about'>
+            <p className='px-4 py-2 rounded inline-block'>NOSOTROS</p></NavLink>
+            <NavLink
+            onClick={()=> setShowMenu(false)} to='/contact'>
+            <p className= 'px-4 py-2 rounded inline-block'>CONTACTO</p></NavLink>
             
           </ul>
         </div>
