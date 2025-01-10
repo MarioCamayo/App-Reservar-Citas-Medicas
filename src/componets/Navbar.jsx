@@ -52,7 +52,31 @@ const [token, setToken] = useState(true)
             className='bg-primary text-white px-8 py-3 rounded-full font-light md:block'>Crea una cuenta</button>
         }
 
+        <img 
+        className='w-8 cursor-pointer md:hidden'
+        onClick={ ()=> setShowMenu(true) }
+        src= {assets.menu_icon} alt="menu_icon}" />
 
+        {/* --------------- mobile menu ----------------- */}
+
+        <div className= {`${ showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`} >
+          <div className='flex items-center justify-between px-5 py-6'>
+            <img
+            className='w-36'
+             src= {assets.Posta_logo} alt="Logo de Aplicación" />
+            <img 
+            className='w-8 cursor-pointer'
+            onClick={ ()=> setShowMenu(false) }
+            src= {assets.cross_icon} alt="cross_icon" />
+          </div>
+          <ul>
+            <NavLink to='/'>INICIO</NavLink>
+            <NavLink to='/doctors'>TODOS LOS MÉDICOS</NavLink>
+            <NavLink to='/about'>NOSOTROS</NavLink>
+            <NavLink to='/contact'>CONTACTO</NavLink>
+            
+          </ul>
+        </div>
         
       </div> 
     </div>
