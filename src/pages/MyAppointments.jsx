@@ -36,8 +36,8 @@ export const MyAppointments = () => {
               </div>
               <div className='flex flex-col justify-end gap-2'>
                 <button 
-                className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border hover:bg-primary hover:text-white transition-all duartion-300'>Pagar en línea</button>
-                <button className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border hover:bg-red-600 hover:text-white transition-all duartion-300'>Cancelar Cita</button>
+                className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border border-blue-500 hover:bg-primary hover:text-white transition-all duartion-300'>Pagar en línea</button>
+                <button className='text-sm text-stone-500 text-center sm:min-w-48 py-2 border border-red-500 hover:bg-red-600 hover:text-white transition-all duartion-300'>Cancelar Cita</button>
 
               </div>
             </div>
