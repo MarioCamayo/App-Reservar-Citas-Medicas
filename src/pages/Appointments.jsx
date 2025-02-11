@@ -145,7 +145,7 @@ export const Appointments = () => {
               docSlots.length  && docSlots.map((item, index)=>(
                 <div 
                 onClick={()=> setSlotIndex(index)}
-                className= {`text-center py-6 min-w-16 rounded-full cursor-pointer ${slotIndex === index ? 'bg-primary text-white' : 'border border-gray-200'}`} key={index}>
+                className= {`text-center py-3 px-5 min-w-16 rounded-full cursor-pointer ${slotIndex === index ? 'bg-primary text-white' : 'border border-gray-200'}`} key={index}>
                   <p>{item[0] && daysOfWeek[item[0].datetime.getDay()]}</p>
                   <p>{item[0] && item[0].datetime.getDay()}</p>
                   </div>
@@ -172,8 +172,9 @@ export const Appointments = () => {
            </div>
 
            <button
-           className="bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6"
-           >Reservar una cita</button>
+               className="bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6">
+               Reservar una cita
+           </button>
         </div>
 
         {/* Listing Related Doctors */}

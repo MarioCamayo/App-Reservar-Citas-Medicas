@@ -49,7 +49,7 @@ const [token, setToken] = useState(true)
             :
             <button
             onClick={()=>navigate('/login')}
-            className='bg-primary text-white px-8 py-3 rounded-full font-light md:block'>Crea una cuenta</button>
+            className='bg-primary text-white px-2 py-1 rounded-full font-light md:block text-[12px]'>Crea una cuenta</button>
         }
 
         <img 
