@@ -11,9 +11,9 @@ const [showMenu, setShowMenu] = useState(false)
 const [token, setToken] = useState(true)
 
   return (
-    <div className='flex items-center justify-between text:sm py-4 mb-5 border-b border-b-gray-500'>
+    <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-500'>
       <img onClick={()=>navigate('/')} className='w-48 cursor-pointer' src= {assets.Posta_logo} alt="Logo de la posta médica" />
-      <ul className='hidden md:flex items-start gap-5 font-medium className= "py-1"'>
+      <ul className='hidden md:flex items-start gap-5 font-medium'>
         <NavLink to='/'>
           <li className= "py-1">INICIO</li>
           <hr className='boder-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
@@ -40,8 +40,8 @@ const [token, setToken] = useState(true)
               <div className='absolute top-0 right-0 pt-14 text-base font-medium text-gray-600 z-20
               hidden group-hover:block'>
                 <div className='min-w-48 bg-stone-100 rounded flex flex-col gap-4 p-4'>
-                  <p onClick={()=> {navigate('/profile')} }  className='hover:text-black cursor-pointer'>Mi perfil</p>
-                  <p onClick={()=> {navigate('/my-appointments')} }  className='hover:text-black cursor-pointer'>Mis citas</p>
+                  <p onClick={()=> {navigate('/profile')} }  className='hover:text-black cursor-pointer'>Mi perfil </p>
+                  <p onClick={()=> {navigate('/my-appointments')} }  className='hover:text-black cursor-pointer'>Mis citas </p>
                   <p onClick={()=> {setToken(false)} }  className='hover:text-black cursor-pointer'>Cerrar sesión</p>
                 </div>
               </div>
@@ -49,9 +49,10 @@ const [token, setToken] = useState(true)
             :
             <button
             onClick={()=>navigate('/login')}
-            className='bg-primary text-white px-4 py-3 rounded-full font-light md:block  sm:px-2 sm:py-2 sm:text-sm sm:w-42'>Sign Up</button>
+            className='bg-primary text-white px-4 py-3 rounded-full font-light md:block  '>Crear una cuenta
+             </button>
         }
-
+        {/* sm:px-3 sm:py-1 sm:text-sm sm:w-[15px] */}
         <img 
         className='w-8 cursor-pointer md:hidden'
         onClick={ ()=> setShowMenu(true) }
